@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: 
+        linear-gradient(#ffffff33, #ffffff33), 
+        url('assets/background.png'); 
+    background-size: cover;       
+    background-position: center;  
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 50px;
+    background-color: #143a15;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav .logo {
+    font-family: "Philosopher", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #eaf5e5;
+    background-color: #143a15;
+}
+
+nav ul {
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: auto;
+    align-items: center;
+    background-color: #143a15;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eafac4;
+    background-color: #143a15;
+}
+
+#about {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0 5%;
+}
+
+#about p {
+    line-height: 1.8;
+}
+
+.name {
+    font-family: "Philosopher", sans-serif;font-size: 30px;
+    font-weight: bold;
+    color: #054984;
+    margin-bottom: 10px;
+}
+
+.profile-photo {
+    padding: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.judul {
+    font-family: "Philosopher", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #054984;
+    margin-bottom: 50px;
+}
+
+#skil {
+    font-family: "Montserrat", sans-serif;
+    padding: 50px 5%;
+}
+
+#skil ul {
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#skil li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    font-family: "Philosopher", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#skil img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    flex-shrink: 0; 
+}
+
+#pengalaman {
+    font-family: "Montserrat", sans-serif;
+    padding: 50px 5%;
+}
+
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-card {
+    background-color: #f8ffde;
+    border: 2px solid #f8ffde; 
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 12px #272811; 
+    overflow: hidden; 
+}
+
+.project-year {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 14px;
+    color: #000000; 
+    margin-bottom: 16px; 
+}
+
+.project-card p, 
+.project-card ol,
+.project-card li {
+    margin: 0; 
+    background-color: transparent !important;
+}
+
+.project-name {
+    font-family: "Philosopher", sans-serif;
+    font-size: 22px; 
+    font-weight: bold;
+    color: #1b5a04;
+    margin-bottom: 4px;
+}
+
+.project-card ol {
+    padding-left: 20px; 
+}
+
+.project-card ol li {
+    margin-bottom: 8px; 
+    line-height: 1.5; 
+}
+
+#pendidikan {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 50px 5%;
+}
+
+#pendidikan ol {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#pendidikan li {
+    background-color: #f8ffde !important;
+    border: 2px solid #f8ffde;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    font-weight: bold;
+    color: #054984;
+    box-shadow: 0 4px 12px #272811; 
+    overflow: hidden; 
+    margin-bottom: 100px;
+}
+
+#kontak {
+    background-color: #608661;
+    padding: 30px 50px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+#kontak .kontak {
+    font-family: "Philosopher", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #113504;
+    padding: 10px;
+}
+
+#kontak ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+#kontak a {
+    font-family: "Philosopher", sans-serif;
+    text-decoration: none;
+    color: #d2eebc;
+    font-weight: bold;
+}
+
+#kontak p, 
+#kontak ul, 
+#kontak li, 
+#kontak a {
+    background-color: transparent !important;
+}
